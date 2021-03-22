@@ -1,0 +1,44 @@
+{
+  "name": "chronalc/regrole",
+  "type": "flarum-extension",
+  "homepage": "https://github.com/Chronalc/Regrole",
+  "description": "Allow users to assign roles to themselves during registration.",
+  "keywords": [
+    "flarum",
+    "registration",
+    "role"
+  ],
+  
+  "license": "MIT",
+  "authors": [{
+    "name": "Chronalc",
+    "email": "chronalc@gmail.com",
+    "homepage": "https://github.com/Chronalc"
+  }],
+  "support": {
+    "issues": "https://github.com/Chronalc/Regrole/issues",
+    "source": "https://github.com/Chronalc/Regrole"
+  },
+  "require": {
+    "flarum/core": "^0.1.0-beta.15"
+},
+"extra": {
+    "branch-alias": {
+        "dev-master": "0.1.x-dev"
+},
+  "autoload": {
+    "psr-4": {
+      "TheTurk\\RegRole\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Registration Roles",
+      "icon": {
+        "name": "fas fa-user-friends",
+        "backgroundColor": "#b72a2a",
+        "color": "#fff"
+      }
+    }
+  }
+}
